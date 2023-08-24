@@ -1,0 +1,13 @@
+.header {
+  padding-top: 23px;
+  padding-bottom: 21px;
+  &__container {
+    @include flex-all-sb;
+  }
+  &--main {
+    background-color: var(--color-light);
+  }
+  &__nav {
+    margin-left: -112px;
+  }
+}

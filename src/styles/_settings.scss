@@ -1,0 +1,145 @@
+@import "./vars";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  line-height: 1;
+  // color: var(--color-grey);
+}
+.btn-reset {
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  // overflow-y: hidden;
+  overflow-x: hidden;
+}
+.main {
+  flex: 1 1 auto;
+}
+[class*="__container"] {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: var(--color-ebony);
+  text-transform: uppercase;
+  margin-bottom: 25px;
+
+  span {
+    color: var(--color-primary);
+  }
+  &--home {
+    color: var(--color-light);
+  }
+}
+.main-descr {
+  color: var(--color-storm);
+  font-size: 20px;
+  line-height: 150%; /* 30px */
+  &--home {
+    margin-bottom: 60px;
+    color: var(--color-light);
+  }
+}
+
+.btn {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-light);
+  border-radius: 4px;
+  padding: 15px 39px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  &--fill {
+    background-color: var(--color-primary);
+  }
+  &--stroke {
+    &-light {
+      border-color: var(--color-light);
+    }
+  }
+}
+.title {
+  margin-bottom: 25px;
+  color: var(--color-ebony);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%; /* 59.8px */
+  &--center {
+    text-align: center;
+  }
+}
+.descr {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 150%; /* 27px */
+  color: var(--color-storm);
+  &--center {
+    text-align: center;
+  }
+}
+.section-offset {
+  padding-top: 120px;
+}
