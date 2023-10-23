@@ -1,35 +1,50 @@
-<header class="header header--main">
-  <div class="header__container">
-    <a href="#" class="header__logo">
-      <img src="/public/img/logo.svg" alt="createx logo">
+<header class="header header-position" id="header">
+  <div class="header__cnt header-scroll">
+    <div class="header__menu menu">
+      <div class="menu__body" id="menu-body">
+        <div class="menu__box">
+          <a href="#" class="menu__logo">
+            <img src="/public/img/logo-mobile.png" alt="logotype">
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item" data-section="about">
+              <a href="#about"  class="menu__link">О&nbsp;центре</a>
+            </li>
+            <li class="menu__item" data-section="advantages">
+              <a href="#advantages"  class="menu__link">Преимущества</a>
+            </li>
+            <li class="menu__item" data-section="location">
+              <a href="#location"  class="menu__link">Расположение</a>
+            </li>
+            <li class="menu__item" data-section="office">
+              <a href="#office"  class="menu__link">О&nbsp;помещениях</a>
+            </li>
+            <li class="menu__item" data-section="room">
+              <a href="#room"  class="menu__link">Офисы</a>
+            </li>
+            <li class="menu__item" data-section="form">
+              <a href="#form"  class="menu__link">Контакты</a>
+            </li>
+          </ul>
+          <div class="menu__info">
+            <a href="tel:+79231726894" class="menu__info-tel">+7 923 172 68 94</a>
+            <a href="https://clck.ru/368jYf" target="_blank" class="menu__info-adress">Павловский тракт, 313Б</a>
+          </div>
+        </div>
+        <div class="menu__icon btn--burger" id="menu-icon">
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <a href="" class="header__logo" id="header-logo">
+      <img src="/public/img/svg/logo-footer.svg" alt="">
     </a>
-    <nav class="nav header__nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-            <a href="#" class="nav__link">About Us</a>
-        </li>
-        <li class="nav__item">
-            <a href="#" class="nav__link">Services</a>
-        </li>
-        <li class="nav__item">
-            <a href="#" class="nav__link">Work</a>
-        </li>
-        <li class="nav__item">
-            <a href="#" class="nav__link">News</a>
-        </li>
-        <li class="nav__item">
-            <a href="#" class="nav__link">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header-contacts">
-      <a href="tel:74055550128" class="header-contacts__link contacts-link contacts-link--call">
-        <span class="contacts-link__caption">Call us</span>
-        <span class="contacts-link__value">(405) 555-0128</span>
-      </a>
-      <a href="mailto:hello@createx.com" class="header-contacts__link contacts-link contacts-link--mail">
-        <span class="contacts-link__caption">Talk to us</span>
-        <span class="contacts-link__value">hello@createx.com</span>
+    <div class="header__buttons">
+        <a href="#" class="header__rent btn--stroke">
+        <img src="/public/img/svg/arrow.svg" alt="arrow">Арендовать
+        </a>
+      <a href="tel:+79231726894" class="btn--burger header__tel">
+        <img src="/public/img/svg/call.svg" alt="">
       </a>
     </div>
   </div>

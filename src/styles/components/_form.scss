@@ -1,0 +1,141 @@
+.form {
+  background-color: var(--color-catskill);
+  &__container {
+    padding-top: 167px;
+    padding-bottom: 206px;
+  }
+  &__title {
+    margin-bottom: 147px;
+  }
+  &__content{
+    // align-items: center;
+    display: flex;
+    gap: 201px;
+  }
+  &__info {
+    flex: 0 1 50%;
+    padding-top: 107px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+  }
+  &__tel {
+    color: var(--color-text);
+    font-family: Formular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__mail {
+    color: var(--color-text);
+    font-family: Formular;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__adress {
+    font-family: Formular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__map {
+    color: var(--black, #000);
+    font-family: Formular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 24px;
+    text-decoration: underline;
+  }
+  &__subtitle {
+    color: var(--color-text);
+    font-family: Formular;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 65px;
+  }
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  flex: 0 1 72%;
+  
+  &__name {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    
+    margin-bottom: 53px;
+    color: var(--, #212121);
+    font-family: Formular;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    &::placeholder {
+      color: var(--, #212121);
+      font-family: Formular;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__tel {
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    
+    color: var(--, #212121);
+    font-family: Formular;
+    font-size: 30px;
+    font-style: normal;
+    position: relative;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 55px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      background-color: #000;
+      height: 2px;
+      bottom: 0;
+      right: 0;
+    }
+    &::placeholder {
+      color: var(--, #212121);
+      font-family: Formular;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    & .header__rent {
+      width: 165px;
+    }
+  }
+  &__info {
+    color: var(--color-text);
+    font-family: Formular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

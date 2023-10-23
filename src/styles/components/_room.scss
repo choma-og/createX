@@ -1,0 +1,80 @@
+.room {
+  padding-top: 169px;
+  padding-bottom: 204px;
+  background-color: var(--color-text);
+  @media (max-width: 800px) {
+    padding-top: 85px;
+  }
+
+  &__container {
+    max-width: 1384px;
+    padding: 2px 23px;
+    margin: 0 0 0 auto;
+    padding-left: 227px;
+    position: relative;
+    
+  }
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 115px;
+    color: var(--color-light);
+  }
+  &__card {
+    max-width: 327px;
+    &.swiper-slide {
+      
+    }
+  }
+  &__image {
+    width: 327px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 34px;
+    overflow: hidden;
+    &:hover img {
+      transform: scale(1.25);
+    }
+    &-square {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      color: var(--color-light);
+      font-family: Formular;
+      font-size: 96px;
+      line-height: normal;
+    }
+    &-number {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: var(--color-light);
+      font-size: 24px;
+      line-height: normal;
+    }
+    img {
+      height: 400px;
+      // width: 100%;
+      // height: 100%;
+      transition: transform 0.25s;
+    }
+  }
+  &__price {
+    display: block;
+    margin-bottom: 14px;
+    color: var(--white, #FFF);
+    font-family: Formular;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__value {
+    display: block;
+    color: var(--white, #FFF);
+    font-family: Formular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

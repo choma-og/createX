@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--color-catskill);
+  &__container {
+    padding-top: 54px;
+    padding-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--black, #000);
+    font-family: Formular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__logo {
+    margin-bottom: 30px;
+  }
+  &__text {
+    max-width: 427px;
+  }
+  &__social {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: flex-end;
+  }
+}
+.social__list {
+  margin-bottom: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}

@@ -9,13 +9,15 @@
 // подключения компонентов страницы (большие компоненты)
 @import "./components/header";
 @import "./components/hero";
-@import "./components/about-section";
-@import "./components/misson";
-@import "./components/services-section";
+@import "./components/about";
+@import "./components/parallax";
+@import "./components/advantages";
+@import "./components/location";
+@import "./components/office";
+@import "./components/room";
+@import "./components/form";
 @import "./components/footer";
 
 // подключения компонентов страницы (маленькие компоненты)
-@import "./components/nav";
-@import "./components/header-contacts";
-@import "./components/video-block";
-@import "./components/form-field";
+
+
